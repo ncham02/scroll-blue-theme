@@ -3,3 +3,33 @@ Theme Name: Switch Theme
 Author: Nia
 Version: 1.1
 */
+
+
+.roles {
+  text-align: center;
+}
+
+.roles button{
+  width: 80%;
+  margin: 1rem 0;
+}
+
+.scroll-text{
+  text-align: center;
+}
+
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+
+  .container{
+    margin-top: 5rem;
+  }
+
+  .roles button{
+    margin: 0 1rem;
+    width: auto;
+    color: red;
+  }
+
+}
