@@ -1,35 +1,382 @@
 /*
-Theme Name: Switch Theme
+Theme Name: Scroll Blue Theme
 Author: Nia
 Version: 1.1
 */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-.roles {
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: linear-gradient(#FFFFFF, #9FCFFF, #FFFFFF);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a,i{
+    color: #0080FF;
+    text-decoration: none;
+}
+
+a:hover,i:hover{
+    color: #9FCFFF;
+}
+
+.container {
+  box-sizing: border-box;
+  padding: 2rem;
+  width: 100%;
   text-align: center;
 }
 
-.roles button{
-  width: 80%;
-  margin: 1rem 0;
+.container.page{
+  text-align: left;
+  margin-top: 5%;
+}
+
+
+
+.top-menu-bar{
+  z-index: 999;
+  width: 100%;
+  padding: 2rem 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.banner{
+  width: 99vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+  margin: auto;
+}
+
+div.banner:after{
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+     width: 100%;
+    background: #0080FF;
+    mix-blend-mode: overlay;
+    opacity: 50%;
+}
+
+
+div.banner img {
+  object-fit: cover;
+  min-width: 100%;
+  height: 12rem;
+}
+
+.banner div.two.columns{
+  height: 100%;
+  line-height: 0;
+}
+
+.hidden-image{
+  visibility: hidden;
+  position: absolute;
+}
+
+.content-box{
+  margin: 10rem auto 2rem;
+}
+
+.content-box h4{
+  font-size: 2rem;
+}
+
+.nav-bar a {
+  font-size: 1.2rem;
+}
+
+.logo-image{
+  width: 12rem;
+}
+
+.button-div {
+  margin: 6rem 0;
+}
+
+a.scroll-down-buttons.button,a.scroll-up-buttons.button{
+  margin: 2rem auto;
+  min-width: 28rem;
+  font-size: 1rem;
 }
 
 .scroll-text{
+  margin: 6rem 0;
   text-align: center;
+  animation: bounce 1s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.5, 0.05, .5, .5);
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  from {
+      transform: translate3d(0, 0, 0);
+  }
+  to {
+      transform: translate3d(0, 50px, 0);
+  }
+}
+/* Prefix Support */
+
+ball {
+  -webkit-animation-name: bounce;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: cubic-bezier(
+  .5, 0.05, 1, .5);
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+  from {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+  }
+  to {
+      -webkit-transform: translate3d(0, 200px, 0);
+      transform: translate3d(0, 200px, 0);
+  }
+}
+
+.title {
+  font-weight: bold;
+}
+
+.section-box {
+  display: block;
+  padding: 10rem 2rem 0;
+}
+
+h1.section-box-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-box-links{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-box-link.left.six.columns,.section-box-link.right.six.columns{
+  box-sizing: border-box;
+  margin: 2rem auto;
+  position: relative;
+}
+
+.section-box-link.left,.section-box-link.right {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+img.section-box-image{
+  display: block;
+  object-fit: cover;
+  min-width: 100%;
+  height: 100%;
+  transition: transform .3s;
+  z-index: 2;
+}
+
+.section-box-link:hover img.section-box-image{
+  transform: scale(1.1) rotate(-5deg);
+}
+
+.section-box-overlay {
+  z-index: 100;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #9FCFFF;
+  opacity: 75%;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.section-box-link:hover .section-box-overlay {
+  height: 65%;
+}
+
+.section-box-text {
+  z-index: 105;
+  color: #000;
+  font-size: 1rem;
+  text-align: center;
+  align-items: center;
+}
+
+
+
+.button-primary,.button:not(.button-primary):hover{
+  background-color: #0080FF !important;
+  border-color: #0080FF !important;
+  border-radius: 20px !important;
+    color: #FFFFFF!important;
+}
+
+.button-primary:hover,.button:not(.button-primary){
+  color: #0080FF !important;
+  background-color: transparent!important;
+  border-color: #0080FF !important;
+  border-radius: 20px !important;
+}
+
+.scroll-down-buttons,.scroll-up-buttons{
+  display: block;
+  font-size: 1rem;
+}
+
+.scroll-up-buttons{
+  width: 60%;
+  margin: 4rem auto;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+}
+
+p.footer-text{
+  margin: 1rem 0;
+  font-size: 1.4rem;
+}
+
+.footer-icon{
+  font-size: 2.8rem;
+  margin: 2rem;
+  color: #0080FF;
+}
+
+.footer-icon:hover{
+  color: #9FCFFF;
 }
 
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-
-  .container{
-    margin-top: 5rem;
+  .logo-image{
+    width: 16rem;
   }
 
-  .roles button{
-    margin: 0 1rem;
-    width: auto;
-    color: red;
+  .nav-bar a {
+    font-size: 1.8rem;
+    margin: 1rem;
+  }
+
+  .content-box h4{
+    font-size: 2.6rem;
+  }
+
+  .content-box{
+    margin: 10rem auto;
+  }
+
+  .section-box-text {
+    font-size: 1.4rem;
+  }
+
+
+  .hidden-image{
+    visibility: visible;
+    position: relative;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+  .logo-image{
+    width: 20rem;
+  }
+
+  .container {
+    min-height: 150rem;
+    width: 100%;
+  }
+
+  .nav-bar a {
+    font-size: 2rem;
+    margin: 2.4rem;
+  }
+
+  .content-box{
+    margin: 16rem auto 10rem;
+  }
+
+  .banner div.row{
+    margin: 4rem 0;
+  }
+
+  .section-box {
+    min-height: 100rem;
+  }
+
+  h1.section-box-title {
+    text-align: left;
+    font-size: 3.2rem;
+  }
+
+  .section-box-links{
+      flex-direction: row;
+  }
+
+  .section-box-link.left,.section-box-link.right {
+      width: 300px;
+      height: 300px;
+  }
+
+  .section-box-link.left.six.columns,.section-box-link.right.six.columns{
+    margin: 8rem auto;
+  }
+
+  .section-box-text {
+    font-size: 3rem;
+  }
+
+  .scroll-down-buttons,.scroll-up-buttons{
+    font-size: 1.6rem;
+  }
+
+  a.scroll-down-buttons.button{
+      width: 50%;
+      margin: 2.4rem auto;
+  }
+
+  a.scroll-up-buttons.button{
+    width: 30%;
+    margin: 4rem auto;
   }
 
 }
