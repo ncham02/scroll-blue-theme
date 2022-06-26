@@ -15,7 +15,7 @@
 
   <nav class="top-menu-bar">
         <div class="logo">
-              <a href="#"><img class="logo-image" src="<?php echo get_stylesheet_directory_uri();?>/images/8Artboard 1.svg" alt=""></a>
+              <a href="https://niahamilton.com/"><img class="logo-image" src="<?php echo get_stylesheet_directory_uri();?>/images/8Artboard 1.svg" alt=""></a>
         </div>
         <div class="nav-bar">
           <?php wp_nav_menu(
