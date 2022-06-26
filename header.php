@@ -13,16 +13,19 @@
 
   <body <?php body_class();?>>
 
-  <div class="top-menu-bar">
-
-      <nav>
-
-      </nav>
-
-    <!-- <div class="logo">
-          <a href="#"><img class="logo-image" src="<?php echo get_stylesheet_directory_uri();?>/images/8Artboard 1.svg" alt=""></a>
-
-    </div>
+  <nav class="top-menu-bar">
+        <div class="logo">
+              <a href="#"><img class="logo-image" src="<?php echo get_stylesheet_directory_uri();?>/images/8Artboard 1.svg" alt=""></a>
+        </div>
+        <div class="nav-bar">
+          <?php wp_nav_menu(
+              array(
+                'theme_location' => 'scroll-blue-theme-top-menu',
+                'menu_class' => 'nav-bar',
+              )
+            );?>
+        </nav>
+    <!--
 
     <div class="nav-bar">
      <i class="fa-solid fa-bars"></i>

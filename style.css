@@ -1,7 +1,7 @@
 /*
 Theme Name: Scroll Blue Theme
 Author: Nia
-Version: 1.1
+Version: 1.5
 */
 
 *,
@@ -107,8 +107,19 @@ div.banner img {
   font-size: 2rem;
 }
 
-.nav-bar a {
+.nav-bar{
+  display: flex;
+}
+
+.nav-bar ul{
+  margin: 0;
+}
+
+.nav-bar li{
+  margin: 1.2rem;
   font-size: 1.2rem;
+  list-style: none;
+  text-transform: lowercase;
 }
 
 .logo-image{

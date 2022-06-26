@@ -22,4 +22,12 @@ function loadjs(){
 }
 add_action('wp_enqueue_scripts', 'loadjs');
 
+add_theme_support('menus');
+
+function wpb_custom_new_menu() {
+  register_nav_menu('scroll-blue-theme-top-menu',__( 'Scroll Blue Theme Top Menu' ));
+}
+
+add_action( 'init', 'wpb_custom_new_menu' );
+
 ?>
