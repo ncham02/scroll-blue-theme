@@ -17,7 +17,7 @@
   </div>
 
 <div class="button-div">
-  <a class="scroll-down-buttons button" href="#ux-design">UX Design/Frontend Web Development</a>
+  <a class="scroll-down-buttons button" href="#ux-design">UX Design/Web Development</a>
   <a class="scroll-down-buttons button" href="#learning-design">Learning Design/Language Tutoring</a>
   <a class="scroll-down-buttons button" href="#project-management">Project Management</a>
   <a class="scroll-down-buttons button" href="#other-projects">Other Projects</a>
@@ -29,7 +29,7 @@
 <h5 class="scroll-text">Scroll (or click a button) to see more!</h3>
 
 <div class="section-box" id="ux-design">
-  <h1 class="section-box-title">UX Design/Frontend Web Development</h1>
+  <h1 class="section-box-title">UX Design/Web Development</h1>
   <div class="section-box-links row">
     <div class="section-box-link left six columns">
       <img class="section-box-image" src="<?php echo get_stylesheet_directory_uri();?>/images/Screen Shot 2021-08-26 at 6.03.26 PM.png" alt="">
@@ -48,7 +48,7 @@
       </div></a>
     </div>
   </div>
-  <a class="scroll-up-buttons button button-primary" href="#">See More</a>
+  <a class="scroll-up-buttons button button-primary" href="https://niahamilton.com/all-projects/#ux-design">See More</a>
   <a class="scroll-up-buttons button" href="#">Back to top</a>
   <a class="scroll-up-buttons button" href="#learning-design">Next</a>
       </div>
@@ -73,7 +73,7 @@
     </div>
 
 </div>
-  <a class="scroll-up-buttons button button-primary" href="#">See More</a>
+  <a class="scroll-up-buttons button button-primary" href="https://niahamilton.com/all-projects/#learning-design">See More</a>
   <a class="scroll-up-buttons button" href="#">Back to top</a>
     <a class="scroll-up-buttons button" href="#project-management">Next</a>
       </div>
@@ -103,7 +103,7 @@
         </div> </a>
       </div>
           </div>
-        <a class="scroll-up-buttons button button-primary" href="#">See More</a>
+        <a class="scroll-up-buttons button button-primary" href="https://niahamilton.com/all-projects/#project-management">See More</a>
         <a class="scroll-up-buttons button" href="#">Back to top</a>
           <a class="scroll-up-buttons button" href="#other-projects">Next</a>
         </div>
@@ -135,7 +135,7 @@
           </div>
         </div>
 
-  <a class="scroll-up-buttons button button-primary" href="#">See More</a>
+  <a class="scroll-up-buttons button button-primary" href="https://niahamilton.com/all-projects/#other-projects">See More</a>
   <a class="scroll-up-buttons button" href="#">Back to top</a>
         </div>
 

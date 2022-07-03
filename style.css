@@ -1,7 +1,7 @@
 /*
 Theme Name: Scroll Blue Theme
 Author: Nia
-Version: 1.7
+Version: 2.0
 */
 
 *,
@@ -353,7 +353,8 @@ p.footer-text{
   }
 
   .section-box {
-    min-height: 100rem;
+    min-height: 70rem;
+    padding: 2rem 0;
   }
 
   h1.section-box-title {
@@ -384,12 +385,12 @@ p.footer-text{
 
   a.scroll-down-buttons.button{
       width: 50%;
-      margin: 2.4rem auto;
+      margin: 2rem auto;
   }
 
   a.scroll-up-buttons.button{
     width: 30%;
-    margin: 4rem auto;
+    margin: 2rem auto;
   }
 
 }
