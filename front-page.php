@@ -33,7 +33,7 @@
   <div class="section-box-links row">
     <div class="section-box-link left six columns">
       <img class="section-box-image" src="<?php echo get_stylesheet_directory_uri();?>/images/Screen Shot 2021-08-26 at 6.03.26 PM.png" alt="">
-     <a href="#">  <div class="section-box-overlay">
+     <a href="<?php echo site_url('/stages-learning-line-blog');?>">  <div class="section-box-overlay">
         <div class="section-box-text">
           Stages Learning Line Blog
         </div>
@@ -41,14 +41,14 @@
     </div>
     <div class="section-box-link right six columns">
       <img class="section-box-image" src="<?php echo get_stylesheet_directory_uri();?>/images/Screen Shot 2022-06-23 at 6.24.10 PM.png" alt="">
-      <a href="#">  <div class="section-box-overlay">
+      <a href="<?php echo site_url('/this-website');?>">  <div class="section-box-overlay">
         <div class="section-box-text">
           This website!
         </div>
       </div></a>
     </div>
   </div>
-  <a class="scroll-up-buttons button button-primary" href="https://niahamilton.com/all-projects/#ux-design">See More</a>
+  <a class="scroll-up-buttons button button-primary" href="<?php echo site_url('/all-projects/#ux-design'); ?>">See More</a>
   <a class="scroll-up-buttons button" href="#">Back to top</a>
   <a class="scroll-up-buttons button" href="#learning-design">Next</a>
       </div>
@@ -59,7 +59,7 @@
   <div class="section-box-links row">
     <div class="section-box-link left six columns">
       <img class="section-box-image" src="<?php echo get_stylesheet_directory_uri();?>/images/Screen Shot 2022-06-23 at 6.30.35 PM.png" alt="">
-     <a href="#">  <div class="section-box-overlay">
+     <a href="<?php echo site_url('/private-mandarin-and-japanese-tutoring');?>">  <div class="section-box-overlay">
         <div class="section-box-text">
           Private Mandarin and Japanese Tutoring
         </div>
@@ -67,13 +67,13 @@
   </div>
     <div class="section-box-link right six columns">
       <img class="section-box-image" src="<?php echo get_stylesheet_directory_uri();?>/images/Screen Shot 2022-06-23 at 6.28.08 PM.png" alt="">
-    <a href="#">  <div class="section-box-overlay">
+    <a href="<?php echo site_url('italki-tutoring');?>">  <div class="section-box-overlay">
         <div class="section-box-text">italki.com Tutoring</div>
       </div> </a>
     </div>
 
 </div>
-  <a class="scroll-up-buttons button button-primary" href="https://niahamilton.com/all-projects/#learning-design">See More</a>
+  <a class="scroll-up-buttons button button-primary" href="<?php echo site_url('/all-projects/#learning-design'); ?>">See More</a>
   <a class="scroll-up-buttons button" href="#">Back to top</a>
     <a class="scroll-up-buttons button" href="#project-management">Next</a>
       </div>
@@ -87,7 +87,7 @@
       <div class="section-box-links row">
         <div class="section-box-link left six columns">
           <img class="section-box-image" src="<?php echo get_stylesheet_directory_uri();?>/images/Screen Shot 2022-06-24 at 2.27.52 PM.png" alt="">
-          <a href="#"> <div class="section-box-overlay">
+          <a href="<?php echo site_url('/throughline');?>"> <div class="section-box-overlay">
             <div class="section-box-text">
               Throughline (Harvard Graduate School of Education student organization)
             </div>
@@ -96,14 +96,14 @@
 
         <div class="section-box-link right six columns">
           <img class="section-box-image" src="<?php echo get_stylesheet_directory_uri();?>/images/Screen Shot 2022-06-24 at 2.20.39 PM.png" alt="">
-        <a href="#">  <div class="section-box-overlay">
+        <a href="<?php echo site_url('/civic-spirit');?>">  <div class="section-box-overlay">
             <div class="section-box-text">
               Civic Spirit
             </div>
         </div> </a>
       </div>
           </div>
-        <a class="scroll-up-buttons button button-primary" href="https://niahamilton.com/all-projects/#project-management">See More</a>
+        <a class="scroll-up-buttons button button-primary" href="<?php echo site_url('/all-projects/#project-management'); ?>">See More</a>
         <a class="scroll-up-buttons button" href="#">Back to top</a>
           <a class="scroll-up-buttons button" href="#other-projects">Next</a>
         </div>
@@ -114,7 +114,7 @@
           <div class="section-box-links row">
             <div class="section-box-link left six columns">
               <img class="section-box-image" src="<?php echo get_stylesheet_directory_uri();?>/images/Screen Shot 2022-06-24 at 2.24.52 PM.png" alt="">
-            <a href="#">   <div class="section-box-overlay">
+            <a href="<?php echo site_url('/what-does-america-mean-to-you');?>">   <div class="section-box-overlay">
                 <div class="section-box-text">
                   "What Does America Mean To You?" - Short Documentary
                 </div>
@@ -126,7 +126,7 @@
 
             <div class="section-box-link right six columns">
               <img class="section-box-image" src="<?php echo get_stylesheet_directory_uri();?>/images/Screen Shot 2022-06-24 at 2.26.52 PM.png" alt="">
-            <a href="#">  <div class="section-box-overlay">
+            <a href="<?php echo site_url('/constructive-conversation');?>">  <div class="section-box-overlay">
                 <div class="section-box-text">
                   "Constructive Conversation: An Educator's Handbook for Addressing Race"
                 </div>
@@ -135,7 +135,7 @@
           </div>
         </div>
 
-  <a class="scroll-up-buttons button button-primary" href="https://niahamilton.com/all-projects/#other-projects">See More</a>
+  <a class="scroll-up-buttons button button-primary" href="<?php echo site_url('/all-projects/#other-projects'); ?>">See More</a>
   <a class="scroll-up-buttons button" href="#">Back to top</a>
         </div>
 

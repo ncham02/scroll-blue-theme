@@ -4,7 +4,7 @@
   <?php wp_footer();?>
 
   <section class="footer">
-    <p class="footer-text">This website's design was coded by ME! Click <a class="footer-link" href="#">here</a> to learn how.</p>
+    <p class="footer-text">This website's design was coded by ME! Click <a class="footer-link" href="<?php echo site_url('/this-website');?>">here</a> to learn how.</p>
     <p class="footer-text">Here are my socials.</p>
     <div class="social-media">
         <a href="https://www.facebook.com/arienaitsuno" target="_blank"><i class="fa-brands fa-facebook footer-icon"></i></a>
