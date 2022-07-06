@@ -1,7 +1,7 @@
 /*
 Theme Name: Scroll Blue Theme
 Author: Nia
-Version:
+Version: 2.2
 */
 
 *,
@@ -128,6 +128,10 @@ div.banner img {
   margin: 6rem 0;
 }
 
+.button.wp-block-button__link{
+  height: unset;
+}
+
 a.scroll-down-buttons.button,a.scroll-up-buttons.button{
   margin: 2rem auto;
   min-width: 28rem;
@@ -241,7 +245,7 @@ img.section-box-image{
 .section-box-text {
   z-index: 105;
   color: #000;
-  font-size: 1rem;
+  font-size: 1.8rem;
   text-align: center;
   align-items: center;
 }
@@ -313,7 +317,7 @@ p.footer-text{
   }
 
   .section-box-text {
-    font-size: 1.4rem;
+    font-size: 2rem;
   }
 
   .section-box-link.left,.section-box-link.right {
