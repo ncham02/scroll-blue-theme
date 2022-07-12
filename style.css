@@ -1,7 +1,7 @@
 /*
 Theme Name: Scroll Blue Theme
 Author: Nia
-Version: 2.4
+Version: 2.5
 */
 
 *,
@@ -180,6 +180,10 @@ h1.section-box-title {
     flex-direction: column;
 }
 
+.section-box-links.row{
+  justify-content: space-between;
+}
+
 .section-box-link.left.six.columns,.section-box-link.right.six.columns{
   box-sizing: border-box;
   margin: 2rem auto;
@@ -223,7 +227,7 @@ img.section-box-image{
   position: relative;
   color: #000;
   font-size: 2.4rem;
-  padding: 2rem;
+  padding: 3rem 1rem 0;
 }
 
 .button-primary,.button:not(.button-primary):hover{
@@ -289,7 +293,7 @@ p.footer-text{
     font-size: 2rem;
   }
 
-  .section-box-link.left,.section-box-link.right {
+  .section-box-link.left.six.columns,.section-box-link.right.six.columns {
       width: 300px;
       height: 200px;
   }
@@ -343,13 +347,10 @@ p.footer-text{
       flex-direction: row;
   }
 
-  .section-box-link.left,.section-box-link.right {
-      width: 400px;
-      height: 300px;
-  }
-
   .section-box-link.left.six.columns,.section-box-link.right.six.columns{
     margin: 8rem 2rem;
+    width: 400px;
+    height: 300px;
   }
 
   .section-box-text {
