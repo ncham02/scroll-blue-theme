@@ -1,7 +1,7 @@
 /*
 Theme Name: Scroll Blue Theme
 Author: Nia
-Version: 2.2
+Version: 2.4
 */
 
 *,
@@ -27,12 +27,12 @@ body {
   background-image: linear-gradient(to right, #d2e9ff 0%, #ffffff 20%, #ffffff 80%, #d2e9ff 100%);
 }
 
-a,i{
+a,i,.footer-icon{
     color: #0080FF;
     text-decoration: none;
 }
 
-a:hover,i:hover{
+a:hover,i:hover,.footer-icon:hover{
     color: #9FCFFF;
 }
 
@@ -55,7 +55,6 @@ a:hover,i:hover{
   justify-content: space-between;
 }
 
-
 .banner{
   width: 100%;
   position: relative;
@@ -72,10 +71,6 @@ a:hover,i:hover{
     background: #0080FF;
     mix-blend-mode: overlay;
     opacity: 50%;
-}
-
-.banner .row{
-  justify-content: space-between;
 }
 
 div.banner img {
@@ -175,9 +170,8 @@ ball {
 }
 
 h1.section-box-title {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
-  text-align: center;
 }
 
 .section-box-links{
@@ -190,13 +184,10 @@ h1.section-box-title {
   box-sizing: border-box;
   margin: 2rem auto;
   position: relative;
-}
-
-.section-box-link.left,.section-box-link.right {
-    width: 260px;
-    height: 260px;
-    overflow: hidden;
-    z-index: 1;
+  width: 260px;
+  height: 260px;
+  overflow: hidden;
+  z-index: 1;
 }
 
 img.section-box-image{
@@ -216,8 +207,6 @@ img.section-box-image{
   z-index: 100;
   position: absolute;
   bottom: 0;
-  left: 0;
-  right: 0;
   background-color: #9FCFFF;
   opacity: 75%;
   overflow: hidden;
@@ -227,18 +216,15 @@ img.section-box-image{
 }
 
 .section-box-link:hover .section-box-overlay {
-  height: 65%;
+  height: 100%;
 }
 
 .section-box-text {
-  z-index: 105;
+  position: relative;
   color: #000;
-  font-size: 1.8rem;
-  text-align: center;
-  align-items: center;
+  font-size: 2.4rem;
+  padding: 2rem;
 }
-
-
 
 .button-primary,.button:not(.button-primary):hover{
   background-color: #0080FF !important;
@@ -277,13 +263,7 @@ p.footer-text{
 .footer-icon{
   font-size: 2.8rem;
   margin: 2rem;
-  color: #0080FF;
 }
-
-.footer-icon:hover{
-  color: #9FCFFF;
-}
-
 
 /* Larger than phablet */
 @media (min-width: 550px) {
@@ -313,7 +293,6 @@ p.footer-text{
       width: 300px;
       height: 200px;
   }
-
 
   .hidden-image{
     visibility: visible;
@@ -390,5 +369,4 @@ p.footer-text{
     width: 30%;
     margin: 2rem auto;
   }
-
 }
