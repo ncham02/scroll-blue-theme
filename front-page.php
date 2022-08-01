@@ -23,7 +23,7 @@
   <a class="scroll-down-buttons button" href="#other-projects">Other Projects</a>
 </div>
 
-</div> 
+</div>
 
 
 <h5 class="scroll-text">Scroll (or click a button) to see more!</h3>
@@ -49,7 +49,6 @@
     </div>
   </div>
   <a class="scroll-up-buttons button button-primary" href="<?php echo site_url('/all-projects/#ux-design'); ?>">See More</a>
-  <a class="scroll-up-buttons button" href="#">Back to top</a>
   <a class="scroll-up-buttons button" href="#learning-design">Next</a>
       </div>
 
@@ -74,7 +73,6 @@
 
 </div>
   <a class="scroll-up-buttons button button-primary" href="<?php echo site_url('/all-projects/#learning-design'); ?>">See More</a>
-  <a class="scroll-up-buttons button" href="#">Back to top</a>
     <a class="scroll-up-buttons button" href="#project-management">Next</a>
       </div>
 
@@ -104,7 +102,6 @@
       </div>
           </div>
         <a class="scroll-up-buttons button button-primary" href="<?php echo site_url('/all-projects/#project-management'); ?>">See More</a>
-        <a class="scroll-up-buttons button" href="#">Back to top</a>
           <a class="scroll-up-buttons button" href="#other-projects">Next</a>
         </div>
 
